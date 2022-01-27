@@ -1,0 +1,62 @@
+  body{
+    background-color: black !important;
+  }
+  #bgquiz{
+    background:url('bgquiz.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position:relative;
+  }
+  main{
+    margin-top: 8.5%;
+  }
+  #myCanvas{ 
+    background:url('https://37.media.tumblr.com/tumblr_mbha9qWF401qcixnko4_500.gif') no-repeat center center fixed;
+    background-size: cover;
+    position:relative;
+  }
+  .img{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+  }
+  .titre{
+    width: 25%;
+    margin-left: 37.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  a:hover{
+    opacity: 0.5;
+  }
+  .container{
+    margin-left: 11.5%;
+    background-color: rgba(255, 255, 255, 0.699);
+    color: black;
+    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+    width: 75%;
+  }
+  button{
+    color: black;
+    background-color: transparent;
+    border-radius: 25%;
+    border: transparent;
+    font-size: large;
+    margin: 0.5em;
+    cursor: pointer;
+  }
+  button :hover{
+    color: #EC1D24;
+  }
+  #try :hover{
+    color: #EC1D24;
+  }
+
+  @media screen and (max-width: 640px) {
+    .titre{
+      width: 45%;
+      margin-left: 27.5%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  }
